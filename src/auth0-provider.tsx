@@ -154,7 +154,7 @@ const Auth0Provider = <TUser extends User = User>(opts: Auth0ProviderOptions<TUs
   const [client] = useState(
     () => new Auth0Client(toAuth0ClientOptions(clientOpts))
   );
-  const [state, dispatch] = useReducer(reducer<TUser>, initialAuthState  as AuthState<TUser>);
+  const [state, dispatch] = useReducer(reducer<TUser>, initialAuthState as AuthState<TUser>);
   const didInitialise = useRef(false);
 
   const handleError = useCallback((error: Error) => {
@@ -228,7 +228,7 @@ const Auth0Provider = <TUser extends User = User>(opts: Auth0ProviderOptions<TUs
 
   const getAccessTokenSilently = useCallback(
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    async (opts?: GetTokenSilentlyOptions): Promise<any> => {
+    async (opts?: GetTokenSilentlyOptions | (GetTokenSilentlyOptions & { detailedResponse: true })): Promise<any> => {
       let token;
       try {
         token = await client.getTokenSilently(opts);
