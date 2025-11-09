@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@auth0/auth0-spa-js':
         specifier: github:ash-hashtag/auth0-spa-js
-        version: https://codeload.github.com/ash-hashtag/auth0-spa-js/tar.gz/f7b0e569a6a76dce362df60b919f4f815a4783ea
+        version: https://codeload.github.com/ash-hashtag/auth0-spa-js/tar.gz/7324699564e3f80eca766d99bd58c70da8be30f3
     devDependencies:
       '@rollup/plugin-node-resolve':
         specifier: ^15.0.1
@@ -132,8 +132,8 @@ packages:
   '@adobe/css-tools@4.4.4':
     resolution: {integrity: sha512-Elp+iwUx5rN5+Y8xLt5/GRoG20WGoDCQ/1Fb+1LiGtvwbDavuSk0jhD/eZdckHAuzcDzccnkv+rEjyWfRx18gg==}
 
-  '@auth0/auth0-spa-js@https://codeload.github.com/ash-hashtag/auth0-spa-js/tar.gz/f7b0e569a6a76dce362df60b919f4f815a4783ea':
-    resolution: {tarball: https://codeload.github.com/ash-hashtag/auth0-spa-js/tar.gz/f7b0e569a6a76dce362df60b919f4f815a4783ea}
+  '@auth0/auth0-spa-js@https://codeload.github.com/ash-hashtag/auth0-spa-js/tar.gz/7324699564e3f80eca766d99bd58c70da8be30f3':
+    resolution: {tarball: https://codeload.github.com/ash-hashtag/auth0-spa-js/tar.gz/7324699564e3f80eca766d99bd58c70da8be30f3}
     version: 2.8.0
 
   '@babel/code-frame@7.27.1':
@@ -4111,7 +4111,7 @@ snapshots:
 
   '@adobe/css-tools@4.4.4': {}
 
-  '@auth0/auth0-spa-js@https://codeload.github.com/ash-hashtag/auth0-spa-js/tar.gz/f7b0e569a6a76dce362df60b919f4f815a4783ea':
+  '@auth0/auth0-spa-js@https://codeload.github.com/ash-hashtag/auth0-spa-js/tar.gz/7324699564e3f80eca766d99bd58c70da8be30f3':
     dependencies:
       browser-tabs-lock: 1.3.0
       dpop: 2.1.1
